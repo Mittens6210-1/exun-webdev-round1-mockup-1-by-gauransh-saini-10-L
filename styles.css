@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+    height: 97rem;
+}
+
+header {
+    position: relative;
+    height: 7rem;
+    padding: 2rem;
+    width: 100vw;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.now {
+    color: #F66666;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-right: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.reg,
+.log {
+    color: #F66666;
+    border: 1px solid #F66666;
+    border-radius: 2px;
+    padding: 5px 12px;
+}
+
+.log {
+    background: #F66666;
+    color: white
+}
+
+.bg {
+    background: #F66666;
+    height: 380px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.title {
+    width: 430px;
+    height: 96px;
+    color: white;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 48px;
+    margin-left: 4rem;
+}
+
+.search {
+    margin-left: 4rem;
+    height: 47px;
+    width: 320px;
+    border-radius: 12px;
+    border: none;
+    padding: 0 0.9rem;
+    font-size: 14px;
+    line-height: 14.07px;
+    color: #767676;
+}
+
+.Programming,
+.Business {
+    position: absolute;
+    margin-left: 4rem;
+    font-weight: 900;
+    top: 32.5rem;
+}
+
+.psection,
+.pbusiness {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 7.5rem;
+}
+
+.box {
+    position: relative;
+    width: 320px;
+    height: 305px;
+    background: white;
+    box-shadow: 2px 2px 30px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.box img {
+    width: 320px;
+    height: 188px;
+    border-radius: 24px;
+}
+
+.box div {
+    height: 20px;
+    font-size: 20px;
+    line-height: 20.1px;
+    font-weight: bolder;
+    margin-top: 1.5rem;
+}
+
+.seemore,
+.Bseemore {
+    color: #F66666;
+    line-height: 16px;
+    font-size: 1rem;
+    text-decoration: underline;
+    position: absolute;
+    top: 6rem;
+    right: 3rem;
+    top: 61rem;
+}
+
+.Business {
+    top: 61.5rem;
+}
+
+.pbusiness {
+    top: 18.5rem;
+}
+
+.Bseemore {
+    top: 91.5rem;
+}
